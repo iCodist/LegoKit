@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LegoKit_Example' do
+  pod 'LegoKit', :path => '../'
+
+  target 'LegoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
