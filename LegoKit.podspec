@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LegoKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LegoKit.'
+s.name             = 'LegoKit'
+s.version          = '1.0.0'
+s.summary          = 'Modularize our code like LEGO blocks.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,34 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+Modularize our code like LEGO blocks.So...
+DESC
 
-  s.homepage         = 'https://github.com/iCodist/LegoKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iCodist' => 'forkon2008@gmail.com' }
-  s.source           = { :git => 'https://github.com/iCodist/LegoKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/iCodist/LegoKit'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'iCodist' => 'forkon2008@gmail.com' }
+s.source           = { :git => 'https://github.com/iCodist/LegoKit.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
+s.requires_arc = true
 
-  s.source_files = 'LegoKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LegoKit' => ['LegoKit/Assets/*.png']
-  # }
+s.subspec 'UIKitExtension' do |uiKitExtension|
+uiKitExtension.source_files = 'LegoKit/Classes/UIKitExtension/**/*'
+end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.subspec 'FoundationExtension' do |foundationExtension|
+foundationExtension.source_files = 'LegoKit/Classes/FoundationExtension/**/*'
+end
+
+s.frameworks = 'UIKit'
+
+# s.resource_bundles = {
+#   'LegoKit' => ['LegoKit/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.dependency 'AFNetworking', '~> 2.3'
 end

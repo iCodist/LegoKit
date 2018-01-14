@@ -1,0 +1,22 @@
+{
+  "name": "LegoKit",
+  "version": "0.1.0",
+  "summary": "A short description of LegoKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iCodist/LegoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iCodist": "forkon2008@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iCodist/LegoKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LegoKit/Classes/**/*"
+}

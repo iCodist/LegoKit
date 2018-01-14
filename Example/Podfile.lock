@@ -1,0 +1,16 @@
+PODS:
+  - LegoKit (0.1.0)
+
+DEPENDENCIES:
+  - LegoKit (from `../`)
+
+EXTERNAL SOURCES:
+  LegoKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LegoKit: 6b83b94bf1bd235954070287698b8028783cd615
+
+PODFILE CHECKSUM: e177b013b5a878cd22183549589cb04877b78c4d
+
+COCOAPODS: 1.4.0.beta.2

@@ -1,0 +1,6 @@
+framework module Pods_LegoKit_Tests {
+  umbrella header "Pods-LegoKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module LegoKit {
+  umbrella header "LegoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
