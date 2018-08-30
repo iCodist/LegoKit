@@ -10,6 +10,7 @@
 		3528B987063344A390F48E23E40E9EB9 /* Pods-LegoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1831358B3AC520E39E73BA33D46A9320 /* Pods-LegoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ED7560C20B64F2FFB008C772973F0E7 /* Pods-LegoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B3CE847C9606BD4FF5876D9AC92289 /* Pods-LegoKit_Example-dummy.m */; };
 		7EFD4A9D9559106678D30F050A9DAAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7FA070BE21378D0000ECD802 /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070BD21378D0000ECD802 /* UIScrollViewExtension.swift */; };
 		7FBA46CF200BC494006B6287 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46C9200BC493006B6287 /* UIColorExtension.swift */; };
 		7FBA46D0200BC494006B6287 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46CA200BC493006B6287 /* UIViewControllerExtension.swift */; };
 		7FBA46D1200BC494006B6287 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46CB200BC493006B6287 /* UIDeviceExtension.swift */; };
@@ -52,6 +53,7 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69BB3BB7DAD82BD6A3A23F718385A34E /* LegoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E0EB13305CA0AE640360DFC6141065 /* Pods_LegoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA070BD21378D0000ECD802 /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
 		7FBA46C9200BC493006B6287 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		7FBA46CA200BC493006B6287 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		7FBA46CB200BC493006B6287 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				7FBA46C9200BC493006B6287 /* UIColorExtension.swift */,
 				7FBA46CA200BC493006B6287 /* UIViewControllerExtension.swift */,
 				7FBA46CB200BC493006B6287 /* UIDeviceExtension.swift */,
+				7FA070BD21378D0000ECD802 /* UIScrollViewExtension.swift */,
 			);
 			name = UIKitExtension;
 			path = LegoKit/Classes/UIKitExtension;
@@ -373,6 +376,7 @@
 				7FBA46D1200BC494006B6287 /* UIDeviceExtension.swift in Sources */,
 				7FBA46CF200BC494006B6287 /* UIColorExtension.swift in Sources */,
 				7FBA46D0200BC494006B6287 /* UIViewControllerExtension.swift in Sources */,
+				7FA070BE21378D0000ECD802 /* UIScrollViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
