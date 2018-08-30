@@ -1,5 +1,5 @@
 //
-//  DispatchTimeExtension.swift
+//  DispatchTime+Extensions.swift
 //  LegoKit
 //
 //  Created by forkon on 2016/12/7.

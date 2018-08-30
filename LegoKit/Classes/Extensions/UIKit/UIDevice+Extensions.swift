@@ -1,5 +1,5 @@
 //
-//  UIDeviceExtension.swift
+//  UIDevice+Extensions.swift
 //  DFLibrary
 //
 //  Created by forkon on 15/9/10.

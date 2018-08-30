@@ -1,5 +1,5 @@
 //
-//  UIViewControllerExtension.swift
+//  UIViewController+Extensions.swift
 //  LegoKit
 //
 //  Created by forkon on 16/6/30.

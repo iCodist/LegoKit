@@ -10,12 +10,12 @@
 		3528B987063344A390F48E23E40E9EB9 /* Pods-LegoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1831358B3AC520E39E73BA33D46A9320 /* Pods-LegoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ED7560C20B64F2FFB008C772973F0E7 /* Pods-LegoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B3CE847C9606BD4FF5876D9AC92289 /* Pods-LegoKit_Example-dummy.m */; };
 		7EFD4A9D9559106678D30F050A9DAAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7FA070BE21378D0000ECD802 /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070BD21378D0000ECD802 /* UIScrollViewExtension.swift */; };
-		7FBA46CF200BC494006B6287 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46C9200BC493006B6287 /* UIColorExtension.swift */; };
-		7FBA46D0200BC494006B6287 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46CA200BC493006B6287 /* UIViewControllerExtension.swift */; };
-		7FBA46D1200BC494006B6287 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46CB200BC493006B6287 /* UIDeviceExtension.swift */; };
-		7FBA46D2200BC494006B6287 /* DispatchTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46CD200BC493006B6287 /* DispatchTimeExtension.swift */; };
-		7FBA46D3200BC494006B6287 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA46CE200BC493006B6287 /* StringExtension.swift */; };
+		7FA070C9213794F200ECD802 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */; };
+		7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */; };
+		7FA070CB213794F200ECD802 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */; };
+		7FA070CC213794F200ECD802 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C5213794F200ECD802 /* UIScrollView+Extensions.swift */; };
+		7FA070CD213794F200ECD802 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C7213794F200ECD802 /* String+Extensions.swift */; };
+		7FA070CE213794F200ECD802 /* DispatchTime+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */; };
 		89518A786364A0A765E1F2641BF29C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B1311597CD963727FB80291DE99E53B2 /* Pods-LegoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 455E85AB75D4E075351CFE5D60FD32D9 /* Pods-LegoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B39757C6C583BA9D7437EB64BA9526CB /* LegoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6425D68FA0F32B9AE4689C8A7A7A2F5 /* LegoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,12 +53,12 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69BB3BB7DAD82BD6A3A23F718385A34E /* LegoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E0EB13305CA0AE640360DFC6141065 /* Pods_LegoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FA070BD21378D0000ECD802 /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
-		7FBA46C9200BC493006B6287 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		7FBA46CA200BC493006B6287 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		7FBA46CB200BC493006B6287 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
-		7FBA46CD200BC493006B6287 /* DispatchTimeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimeExtension.swift; sourceTree = "<group>"; };
-		7FBA46CE200BC493006B6287 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		7FA070C5213794F200ECD802 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		7FA070C7213794F200ECD802 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchTime+Extensions.swift"; sourceTree = "<group>"; };
 		860163C2115A189DD307AD5BF9B6BF16 /* Pods-LegoKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LegoKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8677B39AAB631E278F753850C98AE5ED /* Pods-LegoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LegoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		86BAF78DB1305374B25BF1B8D3FFA975 /* LegoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LegoKit.xcconfig; sourceTree = "<group>"; };
@@ -162,33 +162,40 @@
 			);
 			sourceTree = "<group>";
 		};
-		7FBA46C8200BC493006B6287 /* UIKitExtension */ = {
+		7FA070C0213794F200ECD802 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				7FBA46C9200BC493006B6287 /* UIColorExtension.swift */,
-				7FBA46CA200BC493006B6287 /* UIViewControllerExtension.swift */,
-				7FBA46CB200BC493006B6287 /* UIDeviceExtension.swift */,
-				7FA070BD21378D0000ECD802 /* UIScrollViewExtension.swift */,
+				7FA070C1213794F200ECD802 /* UIKit */,
+				7FA070C6213794F200ECD802 /* Foundation */,
 			);
-			name = UIKitExtension;
-			path = LegoKit/Classes/UIKitExtension;
+			name = Extensions;
+			path = LegoKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		7FBA46CC200BC493006B6287 /* FoundationExtension */ = {
+		7FA070C1213794F200ECD802 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				7FBA46CD200BC493006B6287 /* DispatchTimeExtension.swift */,
-				7FBA46CE200BC493006B6287 /* StringExtension.swift */,
+				7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */,
+				7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */,
+				7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */,
+				7FA070C5213794F200ECD802 /* UIScrollView+Extensions.swift */,
 			);
-			name = FoundationExtension;
-			path = LegoKit/Classes/FoundationExtension;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7FA070C6213794F200ECD802 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7FA070C7213794F200ECD802 /* String+Extensions.swift */,
+				7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		9F2B5F9BF1476252E92E5B549CEE250B /* LegoKit */ = {
 			isa = PBXGroup;
 			children = (
-				7FBA46CC200BC493006B6287 /* FoundationExtension */,
-				7FBA46C8200BC493006B6287 /* UIKitExtension */,
+				7FA070C0213794F200ECD802 /* Extensions */,
 				36CB1D419F04DEF51C77EEA4C4CBA249 /* Support Files */,
 			);
 			name = LegoKit;
@@ -370,13 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA070C9213794F200ECD802 /* UIViewController+Extensions.swift in Sources */,
+				7FA070CB213794F200ECD802 /* UIDevice+Extensions.swift in Sources */,
+				7FA070CC213794F200ECD802 /* UIScrollView+Extensions.swift in Sources */,
+				7FA070CE213794F200ECD802 /* DispatchTime+Extensions.swift in Sources */,
+				7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */,
+				7FA070CD213794F200ECD802 /* String+Extensions.swift in Sources */,
 				BDB8EFEDB9100A82813D3E9D35454381 /* LegoKit-dummy.m in Sources */,
-				7FBA46D2200BC494006B6287 /* DispatchTimeExtension.swift in Sources */,
-				7FBA46D3200BC494006B6287 /* StringExtension.swift in Sources */,
-				7FBA46D1200BC494006B6287 /* UIDeviceExtension.swift in Sources */,
-				7FBA46CF200BC494006B6287 /* UIColorExtension.swift in Sources */,
-				7FBA46D0200BC494006B6287 /* UIViewControllerExtension.swift in Sources */,
-				7FA070BE21378D0000ECD802 /* UIScrollViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
