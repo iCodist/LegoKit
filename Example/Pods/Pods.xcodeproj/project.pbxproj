@@ -12,6 +12,7 @@
 		7EFD4A9D9559106678D30F050A9DAAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7F1B074921411EB300580E58 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B074821411EB300580E58 /* Protocols.swift */; };
 		7F1B07512141302100580E58 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07502141302100580E58 /* UIView+Extensions.swift */; };
+		7F1B07562142554200580E58 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07552142554100580E58 /* PassThroughView.swift */; };
 		7FA070C9213794F200ECD802 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */; };
 		7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */; };
 		7FA070CB213794F200ECD802 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */; };
@@ -59,6 +60,7 @@
 		69E0EB13305CA0AE640360DFC6141065 /* Pods_LegoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1B074821411EB300580E58 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = LegoKit/Classes/Protocols.swift; sourceTree = "<group>"; };
 		7F1B07502141302100580E58 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		7F1B07552142554100580E58 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
 		7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
@@ -170,6 +172,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		7F1B0754214254FE00580E58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F1B07552142554100580E58 /* PassThroughView.swift */,
+			);
+			name = Views;
+			path = LegoKit/Classes/Views;
+			sourceTree = "<group>";
+		};
 		7FA070C0213794F200ECD802 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +217,7 @@
 		9F2B5F9BF1476252E92E5B549CEE250B /* LegoKit */ = {
 			isa = PBXGroup;
 			children = (
+				7F1B0754214254FE00580E58 /* Views */,
 				7F1B074821411EB300580E58 /* Protocols.swift */,
 				7FA070C0213794F200ECD802 /* Extensions */,
 				36CB1D419F04DEF51C77EEA4C4CBA249 /* Support Files */,
@@ -392,6 +404,7 @@
 				7FA070C9213794F200ECD802 /* UIViewController+Extensions.swift in Sources */,
 				7FA070CB213794F200ECD802 /* UIDevice+Extensions.swift in Sources */,
 				7FA070CC213794F200ECD802 /* UIScrollView+Extensions.swift in Sources */,
+				7F1B07562142554200580E58 /* PassThroughView.swift in Sources */,
 				7FA070CE213794F200ECD802 /* DispatchTime+Extensions.swift in Sources */,
 				7FA070D021379AF100ECD802 /* UICollectionView+Extensions.swift in Sources */,
 				7F1B074921411EB300580E58 /* Protocols.swift in Sources */,
