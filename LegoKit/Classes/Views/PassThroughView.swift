@@ -7,9 +7,9 @@
 
 import UIKit
 
-class PassThroughView: UIView {
+public class PassThroughView: UIView {
 
-    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+    override public func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
         for subView in subviews.reversed() {
             if let view = subView.hitTest(convert(point, to: subView), with: event), !subView.isHidden {
                 return view
