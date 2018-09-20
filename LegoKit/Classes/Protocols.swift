@@ -32,3 +32,21 @@ extension NibCreatable where Self: AnyObject {
     }
     
 }
+
+protocol Cutoutable {
+    func cut(_ rectToCut: CGRect)
+}
+
+extension Cutoutable where Self: UIView {
+    
+    func cut(_ rectToCut: CGRect) {
+        let path = UIBezierPath(rect: bounds)
+        path.append(UIBezierPath(rect: rectToCut))
+        
+        let maskLayer = CAShapeLayer()
+        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.path = path.cgPath
+        layer.mask = maskLayer
+    }
+    
+}
