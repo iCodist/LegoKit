@@ -22,6 +22,7 @@
 		7FA070CE213794F200ECD802 /* DispatchTime+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */; };
 		7FA070D021379AF100ECD802 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070CF21379AF100ECD802 /* UICollectionView+Extensions.swift */; };
 		7FA070D2213CCB4600ECD802 /* Bool+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070D1213CCB4500ECD802 /* Bool+Extensions.swift */; };
+		7FD34A872154BCD700DDE37F /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34A862154BCD700DDE37F /* UIStackView+Extensions.swift */; };
 		89518A786364A0A765E1F2641BF29C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B1311597CD963727FB80291DE99E53B2 /* Pods-LegoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 455E85AB75D4E075351CFE5D60FD32D9 /* Pods-LegoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B39757C6C583BA9D7437EB64BA9526CB /* LegoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6425D68FA0F32B9AE4689C8A7A7A2F5 /* LegoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +72,7 @@
 		7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchTime+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070CF21379AF100ECD802 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070D1213CCB4500ECD802 /* Bool+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extensions.swift"; sourceTree = "<group>"; };
+		7FD34A862154BCD700DDE37F /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		860163C2115A189DD307AD5BF9B6BF16 /* Pods-LegoKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LegoKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8677B39AAB631E278F753850C98AE5ED /* Pods-LegoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LegoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		86BAF78DB1305374B25BF1B8D3FFA975 /* LegoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LegoKit.xcconfig; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				7FA070C5213794F200ECD802 /* UIScrollView+Extensions.swift */,
 				7FA070CF21379AF100ECD802 /* UICollectionView+Extensions.swift */,
 				7F6B05D32151043300E93AB6 /* UIImageView+Extensions.swift */,
+				7FD34A862154BCD700DDE37F /* UIStackView+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */,
 				7FA070CD213794F200ECD802 /* String+Extensions.swift in Sources */,
 				BDB8EFEDB9100A82813D3E9D35454381 /* LegoKit-dummy.m in Sources */,
+				7FD34A872154BCD700DDE37F /* UIStackView+Extensions.swift in Sources */,
 				7FA070D2213CCB4600ECD802 /* Bool+Extensions.swift in Sources */,
 				7F1B07512141302100580E58 /* UIView+Extensions.swift in Sources */,
 			);
@@ -448,7 +452,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LegoKit/LegoKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LegoKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LegoKit/LegoKit.modulemap";
 				PRODUCT_NAME = LegoKit;
@@ -660,7 +664,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LegoKit/LegoKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LegoKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LegoKit/LegoKit.modulemap";
 				PRODUCT_NAME = LegoKit;
