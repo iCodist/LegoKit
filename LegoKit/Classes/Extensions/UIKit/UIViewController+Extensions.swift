@@ -63,4 +63,8 @@ extension UIViewController: UIPopoverPresentationControllerDelegate {
         popoverPresentationController.didDismissClosure = nil
     }
     
+    public func popoverPresentationControllerShouldDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) -> Bool {
+        return true
+    }
+    
 }
