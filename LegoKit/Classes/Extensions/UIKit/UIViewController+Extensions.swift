@@ -8,6 +8,9 @@
 
 import UIKit
 
+import Photos
+import AVKit
+
 public extension UIViewController {
 
     class func instantiateFromNib() -> Self {
@@ -65,6 +68,33 @@ extension UIViewController: UIPopoverPresentationControllerDelegate {
     
     public func popoverPresentationControllerShouldDismissPopover(_ popoverPresentationController: UIPopoverPresentationController) -> Bool {
         return true
+    }
+    
+}
+
+extension UIViewController {
+    
+    public func playVideo(_ videoAsset:PHAsset) {
+        guard videoAsset.mediaType == PHAssetMediaType.video else {
+            print("Not a valid video media type")
+            return
+        }
+        
+        PHCachingImageManager().requestAVAsset(forVideo: videoAsset, options: nil) { [weak self] (asset, _, _) in
+            let asset = asset as! AVURLAsset
+            DispatchQueue.main.async {
+                guard let strongSelf = self else {
+                    return
+                }
+                
+                let player = AVPlayer(url: asset.url)
+                let playerViewController = AVPlayerViewController()
+                playerViewController.player = player
+                strongSelf.present(playerViewController, animated: true, completion: {
+                    player.play()
+                })
+            }
+        }
     }
     
 }
