@@ -39,5 +39,17 @@ extension UIView {
         maskLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
         layer.mask = maskLayer
     }
+    
+    public func setGradientBackgroundColor(from fromColor: UIColor, to toColor: UIColor) {
+        backgroundColor = UIColor.clear
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = bounds
+        gradientLayer.colors = [fromColor.cgColor, toColor.cgColor]
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        layer.insertSublayer(gradientLayer, at: 0)
+    }
 
 }
