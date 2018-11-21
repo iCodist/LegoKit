@@ -26,6 +26,17 @@ public extension UIViewController {
     
 }
 
+extension UIViewController {
+    
+    @objc public func alert(title: String? = nil, message: String?) {
+        let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: NSLocalizedString("OK", comment: "OK"), style: .cancel, handler: nil)
+        alertVC.addAction(okAction)
+        present(alertVC, animated: true, completion: nil)
+    }
+    
+}
+
 extension UIPopoverPresentationController {
     
     fileprivate struct AssociatedKeys {
@@ -76,25 +87,43 @@ extension UIViewController {
     
     public func playVideo(_ videoAsset:PHAsset) {
         guard videoAsset.mediaType == PHAssetMediaType.video else {
-            print("Not a valid video media type")
+            alert(message: NSLocalizedString("Not a valid video media type.", comment: "Not a valid video media type."))
             return
         }
         
         PHCachingImageManager().requestAVAsset(forVideo: videoAsset, options: nil) { [weak self] (asset, _, _) in
-            let asset = asset as! AVURLAsset
+            
+            guard let asset = asset else {
+                self?.alert(message: NSLocalizedString("Cannot find video asset.", comment: "Cannot find video asset."))
+                return
+            }
+            
             DispatchQueue.main.async {
                 guard let strongSelf = self else {
                     return
                 }
                 
-                let player = AVPlayer(url: asset.url)
-                let playerViewController = AVPlayerViewController()
+                let item = AVPlayerItem(asset: asset)
+                let player = AVPlayer(playerItem: item)
+                let playerViewController = CustomAVPlayerViewController()
                 playerViewController.player = player
                 strongSelf.present(playerViewController, animated: true, completion: {
                     player.play()
                 })
             }
         }
+    }
+    
+}
+
+fileprivate class CustomAVPlayerViewController: AVPlayerViewController {
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return [UIInterfaceOrientationMask.landscape, UIInterfaceOrientationMask.portrait]
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
     }
     
 }
