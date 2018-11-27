@@ -10,6 +10,7 @@
 		3528B987063344A390F48E23E40E9EB9 /* Pods-LegoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1831358B3AC520E39E73BA33D46A9320 /* Pods-LegoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ED7560C20B64F2FFB008C772973F0E7 /* Pods-LegoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B3CE847C9606BD4FF5876D9AC92289 /* Pods-LegoKit_Example-dummy.m */; };
 		7EFD4A9D9559106678D30F050A9DAAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7F0FC1E021AD480F00DF8801 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FC1DF21AD480E00DF8801 /* UIButton+Extensions.swift */; };
 		7F1B074921411EB300580E58 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B074821411EB300580E58 /* Protocols.swift */; };
 		7F1B07512141302100580E58 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07502141302100580E58 /* UIView+Extensions.swift */; };
 		7F1B07562142554200580E58 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07552142554100580E58 /* PassThroughView.swift */; };
@@ -65,6 +66,7 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69BB3BB7DAD82BD6A3A23F718385A34E /* LegoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E0EB13305CA0AE640360DFC6141065 /* Pods_LegoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0FC1DF21AD480E00DF8801 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		7F1B074821411EB300580E58 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = LegoKit/Classes/Protocols.swift; sourceTree = "<group>"; };
 		7F1B07502141302100580E58 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		7F1B07552142554100580E58 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
@@ -217,15 +219,16 @@
 		7FA070C1213794F200ECD802 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */,
-				7F1B07502141302100580E58 /* UIView+Extensions.swift */,
-				7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */,
-				7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */,
-				7FA070C5213794F200ECD802 /* UIScrollView+Extensions.swift */,
-				7F2BC236218719F40019A0D3 /* UIScrollView+EmptyData.swift */,
 				7FA070CF21379AF100ECD802 /* UICollectionView+Extensions.swift */,
+				7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */,
+				7F0FC1DF21AD480E00DF8801 /* UIButton+Extensions.swift */,
+				7FA070C4213794F200ECD802 /* UIDevice+Extensions.swift */,
 				7F6B05D32151043300E93AB6 /* UIImageView+Extensions.swift */,
+				7F2BC236218719F40019A0D3 /* UIScrollView+EmptyData.swift */,
+				7FA070C5213794F200ECD802 /* UIScrollView+Extensions.swift */,
 				7FD34A862154BCD700DDE37F /* UIStackView+Extensions.swift */,
+				7F1B07502141302100580E58 /* UIView+Extensions.swift */,
+				7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				7FA070D021379AF100ECD802 /* UICollectionView+Extensions.swift in Sources */,
 				7F1B074921411EB300580E58 /* Protocols.swift in Sources */,
 				7F2BC22C2186E4000019A0D3 /* Date+Extensions.swift in Sources */,
+				7F0FC1E021AD480F00DF8801 /* UIButton+Extensions.swift in Sources */,
 				7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */,
 				7FA070CD213794F200ECD802 /* String+Extensions.swift in Sources */,
 				BDB8EFEDB9100A82813D3E9D35454381 /* LegoKit-dummy.m in Sources */,
