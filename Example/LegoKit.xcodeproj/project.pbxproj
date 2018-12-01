@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		299242F1132D91A866D4FAB5 /* Pods-LegoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegoKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LegoKit_Tests/Pods-LegoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3739CC083FFABD405B1E8889 /* Pods_LegoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BC14D7292F78FB8B0F0E14C /* LegoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LegoKit.podspec; path = ../LegoKit.podspec; sourceTree = "<group>"; };
+		5BC14D7292F78FB8B0F0E14C /* LegoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LegoKit.podspec; path = ../LegoKit.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LegoKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegoKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* LegoKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8392D34BA4DD2B3188253E44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8392D34BA4DD2B3188253E44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9BE115A158D7BCD748C57A87 /* Pods-LegoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegoKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LegoKit_Example/Pods-LegoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AD7D40617BF6B493CF244F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD7D40617BF6B493CF244F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3A00A42E8DFC972DD84EE21 /* Pods_LegoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8297FE7D1A879E1776E9706 /* Pods-LegoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegoKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LegoKit_Tests/Pods-LegoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD29960458A12A05A883128 /* Pods-LegoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegoKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LegoKit_Example/Pods-LegoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GD23W6Y3RR;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GD23W6Y3RR;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = FDD29960458A12A05A883128 /* Pods-LegoKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD23W6Y3RR;
 				INFOPLIST_FILE = LegoKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = 9BE115A158D7BCD748C57A87 /* Pods-LegoKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GD23W6Y3RR;
 				INFOPLIST_FILE = LegoKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8297FE7D1A879E1776E9706 /* Pods-LegoKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GD23W6Y3RR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 299242F1132D91A866D4FAB5 /* Pods-LegoKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GD23W6Y3RR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
