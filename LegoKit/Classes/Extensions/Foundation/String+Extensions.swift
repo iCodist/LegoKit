@@ -5,6 +5,7 @@
 //  Created by forkon on 15/12/31.
 //
 
+import Foundation
 
 extension String {
 
@@ -19,7 +20,7 @@ public extension String {
     
     subscript(pos: Int) -> String {
         precondition(pos >= 0, "character position can't be negative")
-        guard pos < characters.count else { return "" }
+        guard pos < count else { return "" }
         let idx = index(startIndex, offsetBy: pos)
         return String(self[idx...idx])
     }
@@ -34,6 +35,25 @@ public extension String {
         precondition(range.lowerBound.distance(to: 0) <= 0, "range lowerBound can't be negative")
         let lowerIndex = index(startIndex, offsetBy: range.lowerBound, limitedBy: endIndex) ?? endIndex
         return String(self[lowerIndex..<(index(lowerIndex, offsetBy: range.upperBound - range.lowerBound + 1, limitedBy: endIndex) ?? endIndex)])
+    }
+    
+}
+
+extension String {
+    
+    public func substring(between head: String, and tail: Character) -> String? {
+        var retval: String? = nil
+        if let headUpperBound = range(of: head)?.upperBound {
+            var index = headUpperBound
+            while self[index] != tail {
+                if retval == nil {
+                    retval = ""
+                }
+                retval?.append("\(self[index])")
+                index = self.index(index, offsetBy: 1)
+            }
+        }
+        return retval
     }
     
 }
