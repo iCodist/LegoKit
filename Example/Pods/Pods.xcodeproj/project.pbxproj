@@ -27,6 +27,7 @@
 		7FA070CE213794F200ECD802 /* DispatchTime+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */; };
 		7FA070D021379AF100ECD802 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070CF21379AF100ECD802 /* UICollectionView+Extensions.swift */; };
 		7FA070D2213CCB4600ECD802 /* Bool+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070D1213CCB4500ECD802 /* Bool+Extensions.swift */; };
+		7FB4077421C114D4001AF07D /* Tuple2Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4077321C114D4001AF07D /* Tuple2Array.swift */; };
 		7FD34A872154BCD700DDE37F /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34A862154BCD700DDE37F /* UIStackView+Extensions.swift */; };
 		7FEC6554218C2B1800EF744A /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC6553218C2B1800EF744A /* CGRect+Extensions.swift */; };
 		89518A786364A0A765E1F2641BF29C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -83,6 +84,7 @@
 		7FA070C8213794F200ECD802 /* DispatchTime+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchTime+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070CF21379AF100ECD802 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070D1213CCB4500ECD802 /* Bool+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extensions.swift"; sourceTree = "<group>"; };
+		7FB4077321C114D4001AF07D /* Tuple2Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tuple2Array.swift; path = LegoKit/Classes/Tuple2Array.swift; sourceTree = "<group>"; };
 		7FD34A862154BCD700DDE37F /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		7FEC6553218C2B1800EF744A /* CGRect+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
 		860163C2115A189DD307AD5BF9B6BF16 /* Pods-LegoKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LegoKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 			children = (
 				7F1B0754214254FE00580E58 /* Views */,
 				7F1B074821411EB300580E58 /* Protocols.swift */,
+				7FB4077321C114D4001AF07D /* Tuple2Array.swift */,
 				7FA070C0213794F200ECD802 /* Extensions */,
 				36CB1D419F04DEF51C77EEA4C4CBA249 /* Support Files */,
 			);
@@ -435,6 +438,7 @@
 			files = (
 				7F6B05D42151043300E93AB6 /* UIImageView+Extensions.swift in Sources */,
 				7F2E24DA2182B92E0011B65D /* Array+Extensions.swift in Sources */,
+				7FB4077421C114D4001AF07D /* Tuple2Array.swift in Sources */,
 				7FA070C9213794F200ECD802 /* UIViewController+Extensions.swift in Sources */,
 				7FA070CB213794F200ECD802 /* UIDevice+Extensions.swift in Sources */,
 				7FA070CC213794F200ECD802 /* UIScrollView+Extensions.swift in Sources */,

@@ -41,6 +41,23 @@ public extension String {
 
 extension String {
     
+    public func substrings(matched regex: String) -> [String] {
+        do {
+            let regex = try NSRegularExpression(pattern: regex)
+            let results = regex.matches(in: self, range: NSRange(startIndex..., in: self))
+            return results.map {
+                String(self[Range($0.range, in: self)!])
+            }
+        } catch let error {
+            print("invalid regex: \(error.localizedDescription)")
+            return []
+        }
+    }
+    
+}
+
+extension String {
+    
     public func substring(between head: String, and tail: Character) -> String? {
         var retval: String? = nil
         if let headUpperBound = range(of: head)?.upperBound {
