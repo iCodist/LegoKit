@@ -215,12 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = GD23W6Y3RR;
+						DevelopmentTeam = CQP4LT58K7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = GD23W6Y3RR;
+						DevelopmentTeam = CQP4LT58K7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -519,7 +519,7 @@
 			baseConfigurationReference = FDD29960458A12A05A883128 /* Pods-LegoKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GD23W6Y3RR;
+				DEVELOPMENT_TEAM = CQP4LT58K7;
 				INFOPLIST_FILE = LegoKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -535,7 +535,7 @@
 			baseConfigurationReference = 9BE115A158D7BCD748C57A87 /* Pods-LegoKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GD23W6Y3RR;
+				DEVELOPMENT_TEAM = CQP4LT58K7;
 				INFOPLIST_FILE = LegoKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -550,7 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8297FE7D1A879E1776E9706 /* Pods-LegoKit_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = GD23W6Y3RR;
+				DEVELOPMENT_TEAM = CQP4LT58K7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -572,7 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 299242F1132D91A866D4FAB5 /* Pods-LegoKit_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = GD23W6Y3RR;
+				DEVELOPMENT_TEAM = CQP4LT58K7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
