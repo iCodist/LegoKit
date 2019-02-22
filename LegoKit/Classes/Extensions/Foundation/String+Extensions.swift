@@ -86,3 +86,22 @@ public extension String {
     }
     
 }
+
+public extension String {
+    
+    func mutableAttributed(with attributes: [NSAttributedString.Key : Any]?) -> NSMutableAttributedString {
+        return NSMutableAttributedString(string: self, attributes: attributes)
+    }
+    
+}
+
+public extension NSMutableAttributedString {
+    
+    func addAttributes(_ attributes: [NSAttributedString.Key : Any], for substring: String) -> NSMutableAttributedString {
+        if let range = string.range(of: substring) {
+            addAttributes(attributes, range: NSRange(range, in: string))
+        }
+        return self
+    }
+    
+}
