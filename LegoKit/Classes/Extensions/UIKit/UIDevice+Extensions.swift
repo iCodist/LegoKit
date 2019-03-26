@@ -100,6 +100,20 @@ extension UIDevice {
         return model
     }
     
+    /// Has top notch
+    ///
+    /// Return true if current device is iPhone X, XS, XS Max, XR etc.
+    ///
+    /// See https://stackoverflow.com/questions/46192280/detect-if-the-device-is-iphone-x/47067296
+    ///
+    var hasTopNotch: Bool {
+        if #available(iOS 11.0,  *) {
+            return UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0 > 20
+        }
+        
+        return false
+    }
+    
     public func vibrate() {
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
     }
