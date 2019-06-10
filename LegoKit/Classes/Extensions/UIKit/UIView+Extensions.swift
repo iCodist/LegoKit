@@ -53,3 +53,12 @@ extension UIView {
     }
 
 }
+
+extension UIView {
+
+    public func clone() -> UIView {
+        let data = NSKeyedArchiver.archivedData(withRootObject: self)
+        return NSKeyedUnarchiver.unarchiveObject(with: data) as! UIView
+    }
+
+}
