@@ -23,6 +23,16 @@ public extension UIViewController {
         let vc = self.init(nibName: className, bundle: nil)
         return vc
     }
+
+    func embedInNavigationController() -> UINavigationController {
+        return embedInNavigationController(navBarClass: nil)
+    }
+
+    func embedInNavigationController(navBarClass: AnyClass?) -> UINavigationController {
+        let nav = UINavigationController(navigationBarClass: navBarClass, toolbarClass: nil)
+        nav.viewControllers = [self]
+        return nav
+    }
     
 }
 
