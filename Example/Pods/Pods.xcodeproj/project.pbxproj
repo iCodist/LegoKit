@@ -14,6 +14,7 @@
 		7F1B074921411EB300580E58 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B074821411EB300580E58 /* Protocols.swift */; };
 		7F1B07512141302100580E58 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07502141302100580E58 /* UIView+Extensions.swift */; };
 		7F1B07562142554200580E58 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07552142554100580E58 /* PassThroughView.swift */; };
+		7F289F25237D6F2D00C43700 /* NSAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F289F24237D6F2D00C43700 /* NSAttributedString+Extensions.swift */; };
 		7F2BC22C2186E4000019A0D3 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2BC22B2186E4000019A0D3 /* Date+Extensions.swift */; };
 		7F2BC22F2186E50F0019A0D3 /* PHFetchResult+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2BC22E2186E50F0019A0D3 /* PHFetchResult+Extensions.swift */; };
 		7F2BC237218719F40019A0D3 /* UIScrollView+EmptyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2BC236218719F40019A0D3 /* UIScrollView+EmptyData.swift */; };
@@ -74,6 +75,7 @@
 		7F1B074821411EB300580E58 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = LegoKit/Classes/Protocols.swift; sourceTree = "<group>"; };
 		7F1B07502141302100580E58 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		7F1B07552142554100580E58 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
+		7F289F24237D6F2D00C43700 /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
 		7F2BC22B2186E4000019A0D3 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		7F2BC22E2186E50F0019A0D3 /* PHFetchResult+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHFetchResult+Extensions.swift"; sourceTree = "<group>"; };
 		7F2BC236218719F40019A0D3 /* UIScrollView+EmptyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+EmptyData.swift"; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				7F2E24D92182B92E0011B65D /* Array+Extensions.swift */,
 				7F2BC22B2186E4000019A0D3 /* Date+Extensions.swift */,
 				7FEC6553218C2B1800EF744A /* CGRect+Extensions.swift */,
+				7F289F24237D6F2D00C43700 /* NSAttributedString+Extensions.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				7F2BC237218719F40019A0D3 /* UIScrollView+EmptyData.swift in Sources */,
 				7F2BC22F2186E50F0019A0D3 /* PHFetchResult+Extensions.swift in Sources */,
 				7FE076DD22DEEC9D00E03814 /* UITableView+Extensions.swift in Sources */,
+				7F289F25237D6F2D00C43700 /* NSAttributedString+Extensions.swift in Sources */,
 				7FA070D021379AF100ECD802 /* UICollectionView+Extensions.swift in Sources */,
 				7F1B074921411EB300580E58 /* Protocols.swift in Sources */,
 				7F53DBD02351BCB8006540FA /* UIImage+Extensions.swift in Sources */,
