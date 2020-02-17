@@ -44,7 +44,7 @@ extension Cutoutable where Self: UIView {
         path.append(UIBezierPath(rect: rectToCut))
         
         let maskLayer = CAShapeLayer()
-        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         maskLayer.path = path.cgPath
         layer.mask = maskLayer
     }

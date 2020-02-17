@@ -18,4 +18,19 @@ public extension NSAttributedString {
         )
     }
 
+    convenience init(string: String, font: UIFont, textColor: UIColor, indent: CGFloat) {
+        let style: NSMutableParagraphStyle = NSParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
+        style.firstLineHeadIndent = indent
+        style.headIndent = indent
+        style.tailIndent = -indent
+
+        let attributes = [
+            NSAttributedString.Key.paragraphStyle : style,
+            NSAttributedString.Key.font : font,
+            NSAttributedString.Key.foregroundColor : textColor
+        ]
+
+        self.init(string: string, attributes: attributes)
+    }
+
 }

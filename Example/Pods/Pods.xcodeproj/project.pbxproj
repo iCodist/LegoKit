@@ -11,6 +11,7 @@
 		5ED7560C20B64F2FFB008C772973F0E7 /* Pods-LegoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B3CE847C9606BD4FF5876D9AC92289 /* Pods-LegoKit_Example-dummy.m */; };
 		7EFD4A9D9559106678D30F050A9DAAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7F0FC1E021AD480F00DF8801 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FC1DF21AD480E00DF8801 /* UIButton+Extensions.swift */; };
+		7F14EEEB23F51AA600E081A8 /* MKMapView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14EEEA23F51AA600E081A8 /* MKMapView+Extensions.swift */; };
 		7F1B074921411EB300580E58 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B074821411EB300580E58 /* Protocols.swift */; };
 		7F1B07512141302100580E58 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07502141302100580E58 /* UIView+Extensions.swift */; };
 		7F1B07562142554200580E58 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B07552142554100580E58 /* PassThroughView.swift */; };
@@ -72,6 +73,7 @@
 		69BB3BB7DAD82BD6A3A23F718385A34E /* LegoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E0EB13305CA0AE640360DFC6141065 /* Pods_LegoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0FC1DF21AD480E00DF8801 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		7F14EEEA23F51AA600E081A8 /* MKMapView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+Extensions.swift"; sourceTree = "<group>"; };
 		7F1B074821411EB300580E58 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = LegoKit/Classes/Protocols.swift; sourceTree = "<group>"; };
 		7F1B07502141302100580E58 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		7F1B07552142554100580E58 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
@@ -215,12 +217,21 @@
 			path = Photos;
 			sourceTree = "<group>";
 		};
+		7F6F0A3E23FA7D1600DC60E0 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				7F14EEEA23F51AA600E081A8 /* MKMapView+Extensions.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
 		7FA070C0213794F200ECD802 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				7F2BC22D2186E4DE0019A0D3 /* Photos */,
 				7FA070C1213794F200ECD802 /* UIKit */,
 				7FA070C6213794F200ECD802 /* Foundation */,
+				7F6F0A3E23FA7D1600DC60E0 /* MapKit */,
 			);
 			name = Extensions;
 			path = LegoKit/Classes/Extensions;
@@ -458,6 +469,7 @@
 				7FA070CC213794F200ECD802 /* UIScrollView+Extensions.swift in Sources */,
 				7F1B07562142554200580E58 /* PassThroughView.swift in Sources */,
 				7FEC6554218C2B1800EF744A /* CGRect+Extensions.swift in Sources */,
+				7F14EEEB23F51AA600E081A8 /* MKMapView+Extensions.swift in Sources */,
 				7FA070CE213794F200ECD802 /* DispatchTime+Extensions.swift in Sources */,
 				7F2BC237218719F40019A0D3 /* UIScrollView+EmptyData.swift in Sources */,
 				7F2BC22F2186E50F0019A0D3 /* PHFetchResult+Extensions.swift in Sources */,
@@ -513,7 +525,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -725,7 +737,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
