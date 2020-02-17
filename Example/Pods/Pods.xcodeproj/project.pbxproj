@@ -22,6 +22,7 @@
 		7F2E24DA2182B92E0011B65D /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E24D92182B92E0011B65D /* Array+Extensions.swift */; };
 		7F53DBD02351BCB8006540FA /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53DBCF2351BCB8006540FA /* UIImage+Extensions.swift */; };
 		7F6B05D42151043300E93AB6 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B05D32151043300E93AB6 /* UIImageView+Extensions.swift */; };
+		7F6F0A4723FA9D0700DC60E0 /* AssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F0A4623FA9D0700DC60E0 /* AssociatedObjects.swift */; };
 		7F8D4FAC22AF5218007D90D9 /* UITabBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D4FAB22AF5218007D90D9 /* UITabBar+Extensions.swift */; };
 		7FA070C9213794F200ECD802 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */; };
 		7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */; };
@@ -84,6 +85,7 @@
 		7F2E24D92182B92E0011B65D /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		7F53DBCF2351BCB8006540FA /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		7F6B05D32151043300E93AB6 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		7F6F0A4623FA9D0700DC60E0 /* AssociatedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssociatedObjects.swift; path = LegoKit/Classes/AssociatedObjects.swift; sourceTree = "<group>"; };
 		7F8D4FAB22AF5218007D90D9 /* UITabBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070C2213794F200ECD802 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7FA070C3213794F200ECD802 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			children = (
 				7F1B0754214254FE00580E58 /* Views */,
 				7F1B074821411EB300580E58 /* Protocols.swift */,
+				7F6F0A4623FA9D0700DC60E0 /* AssociatedObjects.swift */,
 				7FB4077321C114D4001AF07D /* Tuple2Array.swift */,
 				7FA070C0213794F200ECD802 /* Extensions */,
 				36CB1D419F04DEF51C77EEA4C4CBA249 /* Support Files */,
@@ -481,6 +484,7 @@
 				7F2BC22C2186E4000019A0D3 /* Date+Extensions.swift in Sources */,
 				7F0FC1E021AD480F00DF8801 /* UIButton+Extensions.swift in Sources */,
 				7FA070CA213794F200ECD802 /* UIColor+Extensions.swift in Sources */,
+				7F6F0A4723FA9D0700DC60E0 /* AssociatedObjects.swift in Sources */,
 				7FA070CD213794F200ECD802 /* String+Extensions.swift in Sources */,
 				BDB8EFEDB9100A82813D3E9D35454381 /* LegoKit-dummy.m in Sources */,
 				7FD34A872154BCD700DDE37F /* UIStackView+Extensions.swift in Sources */,
